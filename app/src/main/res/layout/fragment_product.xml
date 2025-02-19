@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".ui.ProductFragment">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <!-- Recommended Products -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sports Equipment"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:paddingTop="16dp"
+        android:paddingBottom="8dp" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        android:rowCount="2"
+        android:padding="8dp">
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:padding="8dp">
+
+            <ImageView
+                android:id="@+id/imgProduct1"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/shirt"
+                tools:ignore="ContentDescription" />
+
+
+            <TextView
+                android:id="@+id/product1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="White Shirt"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/viewProduct1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:padding="8dp">
+
+            <ImageView
+                android:id="@+id/imgProduct2"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/shirt"
+                tools:ignore="ContentDescription" />
+
+
+            <TextView
+                android:id="@+id/product2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="White Shirt"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/viewProduct2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:padding="8dp">
+
+            <ImageView
+                android:id="@+id/imgProduct3"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/shirt"
+                tools:ignore="ContentDescription" />
+
+
+            <TextView
+                android:id="@+id/product3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="White Shirt"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/viewProduct3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:padding="8dp">
+
+            <ImageView
+                android:id="@+id/imgProduct4"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/shirt"
+                tools:ignore="ContentDescription" />
+
+
+            <TextView
+                android:id="@+id/product4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="White Shirt"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/viewProduct4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View" />
+
+        </LinearLayout>
+    </GridLayout>
+
+    <!-- Clothes Section -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Clothes"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:paddingTop="16dp"
+        android:paddingBottom="8dp" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        android:rowCount="2"
+        android:padding="8dp">
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:padding="8dp">
+
+            <ImageView
+                android:id="@+id/imgProduct5"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/shirt"
+                tools:ignore="ContentDescription" />
+
+
+            <TextView
+                android:id="@+id/product5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="White Shirt"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/viewProduct5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:padding="8dp">
+
+            <ImageView
+                android:id="@+id/imgProduct6"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/shirt"
+                tools:ignore="ContentDescription" />
+
+
+            <TextView
+                android:id="@+id/product6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="White Shirt"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/viewProduct6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:padding="8dp">
+
+            <ImageView
+                android:id="@+id/imgProduct7"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/shirt"
+                tools:ignore="ContentDescription" />
+
+
+            <TextView
+                android:id="@+id/product7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="White Shirt"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/viewProduct7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:padding="8dp">
+
+            <ImageView
+                android:id="@+id/imgProduct8"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/shirt"
+                tools:ignore="ContentDescription" />
+
+
+            <TextView
+                android:id="@+id/product8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="White Shirt"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/viewProduct8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View" />
+
+        </LinearLayout>
+    </GridLayout>
+
+    <!-- Gadgets Section -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gadgets"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:paddingTop="16dp"
+        android:paddingBottom="8dp" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        android:rowCount="2"
+        android:padding="8dp">
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:padding="8dp">
+
+            <ImageView
+                android:id="@+id/imgProduct9"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/shirt"
+                tools:ignore="ContentDescription" />
+
+
+            <TextView
+                android:id="@+id/product9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="White Shirt"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/viewProduct9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:padding="8dp">
+
+            <ImageView
+                android:id="@+id/imgProduct10"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/shirt"
+                tools:ignore="ContentDescription" />
+
+
+            <TextView
+                android:id="@+id/product10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="White Shirt"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/viewProduct10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:padding="8dp">
+
+            <ImageView
+                android:id="@+id/imgProduct11"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/shirt"
+                tools:ignore="ContentDescription" />
+
+
+            <TextView
+                android:id="@+id/product11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="White Shirt"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/viewProduct11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:padding="8dp">
+
+            <ImageView
+                android:id="@+id/imgProduct12"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/shirt"
+                tools:ignore="ContentDescription" />
+
+
+            <TextView
+                android:id="@+id/product12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="White Shirt"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/viewProduct12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View" />
+
+        </LinearLayout>
+    </GridLayout>
+    </LinearLayout>
+</ScrollView>

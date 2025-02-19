@@ -1,14 +1,203 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
     tools:context=".ui.HomeFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Home Fragement" />
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
 
-</FrameLayout>
+        <ImageView
+            android:id="@+id/imgBanner"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:background="@drawable/ic_launcher_background"
+            android:src="@drawable/ic_launcher_foreground"
+            tools:ignore="ContentDescription" />
+
+        <!-- Recommended Products -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Recommendations"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingTop="16dp"
+            android:paddingBottom="8dp" />
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="2"
+            android:rowCount="2"
+            android:padding="8dp">
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:padding="8dp">
+
+                <ImageView
+                    android:id="@+id/imgProduct1"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/shirt"
+                    tools:ignore="ContentDescription" />
+
+
+                <TextView
+                    android:id="@+id/product1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="White Shirt"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/viewProduct1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="View" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:padding="8dp">
+
+                <ImageView
+                    android:id="@+id/imgProduct2"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/shirt"
+                    tools:ignore="ContentDescription" />
+
+
+                <TextView
+                    android:id="@+id/product2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="White Shirt"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/viewProduct2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="View" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:padding="8dp">
+
+                <ImageView
+                    android:id="@+id/imgProduct3"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/shirt"
+                    tools:ignore="ContentDescription" />
+
+
+                <TextView
+                    android:id="@+id/product3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="White Shirt"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/viewProduct3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="View" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:padding="8dp">
+
+                <ImageView
+                    android:id="@+id/imgProduct4"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/shirt"
+                    tools:ignore="ContentDescription" />
+
+
+                <TextView
+                    android:id="@+id/product4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="White Shirt"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/viewProduct4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="View" />
+
+            </LinearLayout>
+        </GridLayout>
+
+        <!-- Promotions -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Promotions you might be interested in"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingTop="16dp"
+            android:paddingBottom="8dp" />
+
+        <TextView
+            android:id="@+id/promotion1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Buy 1,000 gets 10% off"
+            android:padding="8dp"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/promotion2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Buy 3 get 1 free"
+            android:padding="8dp"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/promotion3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Buy now free delivery fee"
+            android:padding="8dp"
+            android:textSize="16sp" />
+
+
+    </LinearLayout>
+</ScrollView>

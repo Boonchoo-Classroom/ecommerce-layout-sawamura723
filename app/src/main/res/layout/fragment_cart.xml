@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".ui.CartFragment">
+
+    <!-- Recommended Products -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your Shopping Cart"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:paddingTop="16dp"
+        android:paddingBottom="8dp" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+        <!-- Product 1 -->
+        <ImageView
+            android:id="@+id/imgProduct1"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/shirt"
+            tools:ignore="ContentDescription" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp">
+
+            <TextView
+                android:id="@+id/product1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Dumbell 10kg"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/decrementProduct1"
+                android:layout_width="55dp"
+                android:layout_height="48dp"
+                android:text="-"
+                android:layout_marginStart="8dp" />
+
+            <TextView
+                android:id="@+id/product1Quantity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/incrementProduct1"
+                android:layout_width="55dp"
+                android:layout_height="48dp"
+                android:text="+"
+                android:layout_marginEnd="8dp" />
+
+            <Button
+                android:id="@+id/viewProduct1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Delete" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- Product 2 -->
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+        <ImageView
+            android:id="@+id/imgProduct2"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/shirt"
+            tools:ignore="ContentDescription" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp">
+
+            <TextView
+                android:id="@+id/product2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Yoga Towel"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/decrementProduct2"
+                android:layout_width="55dp"
+                android:layout_height="48dp"
+                android:text="-"
+                android:layout_marginStart="8dp" />
+
+            <TextView
+                android:id="@+id/product1Quantity2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/incrementProduct2"
+                android:layout_width="55dp"
+                android:layout_height="48dp"
+                android:text="+"
+                android:layout_marginEnd="8dp" />
+
+            <Button
+                android:id="@+id/viewProduct2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Delete" />
+        </LinearLayout>
+    </LinearLayout>
+    <!-- Product 3 -->
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+        <ImageView
+            android:id="@+id/imgProduct3"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/shirt"
+            tools:ignore="ContentDescription" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp">
+
+            <TextView
+                android:id="@+id/product3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Basketball"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/decrementProduct3"
+                android:layout_width="55dp"
+                android:layout_height="48dp"
+                android:text="-"
+                android:layout_marginStart="8dp" />
+
+            <TextView
+                android:id="@+id/product1Quantity3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/incrementProduct3"
+                android:layout_width="55dp"
+                android:layout_height="48dp"
+                android:text="+"
+                android:layout_marginEnd="8dp" />
+
+            <Button
+                android:id="@+id/viewProduct3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Delete" />
+        </LinearLayout>
+    </LinearLayout>
+    <Button
+        android:id="@+id/checkoutBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginTop="20dp"
+        android:text="Checkout" />
+
+</LinearLayout>
